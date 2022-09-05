@@ -90,7 +90,7 @@ RANGE BETWEEN [START] AND [FINISH]
 ROWS BETWEEN is almost always used over RANGE BETWEEN :sweat_smile:
 
 ---
-### Fetching :wrench:
+### Fetching
 - Relative
   - `LAG(column, n)` returns column's value at the row n rows before the current row
   - `LEAD(column, n)` returns column's value at the row n rows after the current row
@@ -119,7 +119,7 @@ ORDER BY Year ASC
 We used `RANGE BETWEEN` because we said that in the Window functions defintion, we Perform some operations that related to the current row, and we need the last value, that far away from the current row so we used: `RANGE BETWEEN` ... to extend the window to the end of the table or partition.
 
 ---
-### Ranking :wrench:
+### Ranking
 - `ROW_NUMBER()` always assigns unique numbers, even if two rows' values are the same
 - `RANK()` assigns the same number to rows with identical values, skipping over the next numbers in such cases
 - `DENSE_RANK()` also assigns the same number to rows with identical values, but doesn't skip over the next numbers
@@ -142,7 +142,7 @@ We used `RANGE BETWEEN` because we said that in the Window functions defintion, 
 | ESP     | 18    | 10    | 10     | 7            |
 
 ---
-### Paging :wrench:
+### Paging
 - `NTILE(n)` splits the data into n approximately equal pages.  
 
 [Paging](https://docs.microsoft.com/en-us/sql/t-sql/functions/ntile-transact-sql?view=sql-server-ver16): Splitting data into (approximately) equal chunks, uses:
@@ -151,7 +151,8 @@ We used `RANGE BETWEEN` because we said that in the Window functions defintion, 
 
 
 ---
-### Grouping :wrench:
+ :wrench:
+### Grouping
 - `ROLLUP(column_1, column_2, ..)` hierarchical, de-aggregating from the leftmost provided column to the right-most
 - `CUBE(column_1, column_2, ..)` a non-hierarchical ROLLUP, It generates all possible group-level aggregations
 
