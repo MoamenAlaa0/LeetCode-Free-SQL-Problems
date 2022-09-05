@@ -21,7 +21,7 @@ lets **Looking through the window** :grin:
 ---
 
 ## Framing
-### 1. ROWS BETWEEN
+#### 1. ROWS BETWEEN
 ```
 ROWS BETWEEN [START] AND [FINISH]
 ```
@@ -58,7 +58,7 @@ By default, a frame - starts at the beginning of a table or partition
 | 2008 | 43     | 47		   |
 | 2012 | 47     | 47 		   |
 
-### 1. RANGE BETWEEN
+#### 1. RANGE BETWEEN
 RANGE treats duplicates in OVER's ORDER BY subclause as a single entity
 ```
 RANGE BETWEEN [START] AND [FINISH]
@@ -82,6 +82,9 @@ RANGE BETWEEN [START] AND [FINISH]
 | 2004 | 60     | 170     | 230      |
 | 2008 | 60     | 230     | 230      |
 | 2012 | 70     | 300     | 300      |
+
+**ROWS BETWEEN is almost always used over RANGE BETWEEN**
+---
 
 
 
