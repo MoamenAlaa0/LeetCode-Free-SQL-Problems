@@ -13,11 +13,11 @@ Two main clauses Inside OVER function:
 lets **Looking through the window** :grin:	
 
 ### :gear: Functions
-- [Framing](#Framing)
-- [Fetching](#Fetching)
-- [Ranking](#Ranking)
-- [Paging](#Paging)
-- [Grouping](#Grouping)
+- [Framing](#:wrench:Framing)
+- [Fetching](#:wrench:Fetching)
+- [Ranking](#:wrench:Ranking)
+- [Paging](#:wrench:Paging)
+- [Grouping](#:wrench:Grouping)
 
 ---
 
