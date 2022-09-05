@@ -6,8 +6,5 @@ To tell SQL engine there is a Window function.. using `OVER()` (The Main functio
 `FUNCTION_NAME() OVER (...)`
 
 Two main clauses Inside OVER function:
-- ORDER BY
-- PARTITION BY
-
-* ORDER BY in OVER orders the rows related to the current row.
-* PARTITION BY splits the table into partitions based on a column's unique values 
+- ORDER BY --> orders the rows related to the current row
+- PARTITION BY --> splits the table into partitions based on a column's unique values 
