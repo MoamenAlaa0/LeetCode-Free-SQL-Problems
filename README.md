@@ -27,7 +27,7 @@ lets **Looking through the window** :grin:
 
 By default, a frame - starts at the beginning of a table or partition - ends at the current row
 
-MAX without a frame:
+**MAX without a frame:**
 `SUM(Medals) OVER (ORDER BY Year ASC) AS Max_Medals`
 
 | Year | Medals | Max_Medals |
@@ -50,7 +50,7 @@ ROWS BETWEEN [START] AND [FINISH]
   - UNBOUNDED PRECEDING: the beginning of a table or partition
   - UNBOUNDED FOLLOWING: the end of a table or partition
 ```
-MAX with a ROWS frame:
+**MAX with a ROWS frame:**
 ```sql MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS Max_Medals_Last```
 
 | Year | Medals |Max_Medals_Last |
@@ -74,7 +74,7 @@ RANGE BETWEEN [START] AND [FINISH]
   - UNBOUNDED PRECEDING: the beginning of a table or partition
   - UNBOUNDED FOLLOWING: the end of a table or partition
 ```
-SUM with a RANGE frame:
+**SUM with a RANGE frame:**
 `SUM(Medals) OVER (ORDER BY Year ASC RANG BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS Range_RT`
 
 | Year | Medals | Rows_RT | Range_RT |
@@ -86,7 +86,8 @@ SUM with a RANGE frame:
 | 2008 | 60     | 230     | 230      |
 | 2012 | 70     | 300     | 300      |
 
-**ROWS BETWEEN is almost always used over RANGE BETWEEN**  
+
+ROWS BETWEEN is almost always used over RANGE BETWEEN :sweat_smile:
 
 ---
 ### Fetching
