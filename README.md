@@ -1,4 +1,5 @@
 # Window Functions
+### looking through the window
 Perform an operation across a set of rows that are somehow related to the current row  
 Similar to `GROUP BY` aggregate functions, but all rows remain in the output
 
