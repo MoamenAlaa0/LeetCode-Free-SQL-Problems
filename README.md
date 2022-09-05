@@ -74,7 +74,7 @@ RANGE BETWEEN [START] AND [FINISH]
   - UNBOUNDED FOLLOWING: the end of a table or partition
 ```
 **SUM with a RANGE frame:** 
-`SUM(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS Range_RT`
+`SUM(Medals) OVER (ORDER BY Year ASC RANG BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS Range_RT`
 
 | Year | Medals | Rows_RT | Range_RT |
 |------|--------|---------|----------|
