@@ -19,5 +19,27 @@ lets **Looking through the window** :grin:
 - [Paging](#Paging)
 - [Grouping](#Grouping)
 ---
-## Framing
 
+## Framing
+```
+ROWS BETWEEN [START] AND [FINISH]
+  - n PRECEDING: n rows before the current row
+  - CURRENT ROW: the current row
+  - n FOLLOWING: n rows a
+  
+  - UNBOUNDED PRECEDING: the beginning of a table or partition
+  - UNBOUNDED FOLLOWING: the end of a table or partition
+```
+By default, a frame - starts at the beginning of a table or partition 
+			              - ends at the current row
+
+[1] **MAX without a frame:**
+`MAX(Medals) OVER (ORDER BY Year ASC) AS Max_Medals`
+
+| Year | Medals | Max_Medals |
+|------|--------|------------|
+| 1996 | 36     | 36 	       |
+| 2000 | 66     | 66 	       |
+| 2004 | 47     | 66 	       |
+| 2008 | 43     | 66	       |
+| 2012 | 47     | 66 	       |
