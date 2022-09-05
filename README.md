@@ -11,4 +11,10 @@ Two main clauses Inside OVER function:
 - `ORDER BY` orders the rows related to the current row
 - `PARTITION BY` splits the table into partitions based on a column's unique values 
 
-### Types of Window Functions
+### Sections
+1. Framing
+2. Fetching
+3. Ranking
+4. Paging
+5. Grouping
+
