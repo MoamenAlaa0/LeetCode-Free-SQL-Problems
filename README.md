@@ -18,6 +18,7 @@ lets **Looking through the window** :grin:
 - [Ranking](#Ranking)
 - [Paging](#Paging)
 - [Grouping](#Grouping)
+
 ---
 
 ## Framing
@@ -100,8 +101,7 @@ Four main functions:
   - `LAST_VALUE(column)` returns the last value in the table or partition
 
 ``` sql
-SELECT
-	Year, City,
+SELECT	Year, City,
 	FIRST_VALUE(City) OVER(ORDER BY Year ASC) AS First_City,
 	LAST_VALUE(City) OVER(ORDER BY Year ASC RANGE BETWEEN 
 				                UNBOUNDED PRECEDING AND 
@@ -113,13 +113,14 @@ ORDER BY Year ASC
 |------|-----------|------------|-----------|
 | 1896 | Athens    | Athens     | London    |
 | 1900 | Paris     | Athens     | London    |
-| 1904 | St Louis  | Athens 	  | London    |
-| 1908 | London    | Athens 	  | London    |
-| 1912 | Stockholm | Athens 	  | London    |
+| 1904 | St Louis  | Athens 	| London    |
+| 1908 | London    | Athens 	| London    |
+| 1912 | Stockholm | Athens 	| London    |
 
-:memo: **Note:**
+:memo: **Note:**  
 We used `RANGE BETWEEN` because we said that in the Window functions defintion, we Perform some operations that related to the current row, and we need the last value, that far away from the current row so we used: `RANGE BETWEEN` ... clause extends the window to the end of the table or partition.
 
+---
 
 
 
