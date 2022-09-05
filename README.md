@@ -12,7 +12,7 @@ Two main clauses Inside OVER function:
 
 lets **Looking through the window** :grin:	
 
-### :heavy_check_mark: Functions
+### :gear: Functions
 - [Framing](#Framing)
 - [Fetching](#Fetching)
 - [Ranking](#Ranking)
