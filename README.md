@@ -13,11 +13,11 @@ Two main clauses Inside OVER function:
 lets **Looking through the window** :grin:	
 
 ### :heavy_check_mark: Sections
-> Framing
-> Fetching
-> Ranking
-> Paging
-> Grouping
+- [Framing](#Framing)
+- Fetching
+- Ranking
+- Paging
+- Grouping
 ---
 ### Framing
 
