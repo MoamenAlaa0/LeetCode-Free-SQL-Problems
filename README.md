@@ -125,8 +125,8 @@ We used `RANGE BETWEEN` because we said that in the Window functions defintion, 
 - `DENSE_RANK()` also assigns the same number to rows with identical values, but doesn't skip over the next numbers
 
 :memo: **Note:**  
-- ROW_NUMBER and RANK will have the same last rank, the count of rows
-- DENSE_RANK's last rank is the count of unique values being ranked
+1. ROW_NUMBER and RANK will have the same last rank, the count of rows
+2. DENSE_RANK's last rank is the count of unique values being ranked
 
 | Country | Games | Row_N | Rank_N | Dense_Rank_N |
 |---------|-------|-------|--------|--------------|
@@ -146,8 +146,8 @@ We used `RANGE BETWEEN` because we said that in the Window functions defintion, 
 - `NTILE(n)` splits the data into n approximately equal pages.  
 
 [Paging](https://docs.microsoft.com/en-us/sql/t-sql/functions/ntile-transact-sql?view=sql-server-ver16): Splitting data into (approximately) equal chunks, uses:
-  - Many APIs return data in "pages" to reduce data being sent
-  - Separating data into quartiles or thirds (top middle 33%, and bottom thirds) to judge performance
+  1. Many APIs return data in "pages" to reduce data being sent
+  2. Separating data into quartiles or thirds (top middle 33%, and bottom thirds) to judge performance
 
 
 ---
