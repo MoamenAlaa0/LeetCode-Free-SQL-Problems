@@ -1,5 +1,4 @@
-# Window Functions
-### looking through the window
+# :window: Window Functions
 Perform an operation across a set of rows that are somehow related to the current row  
 Similar to `GROUP BY` aggregate functions, but all rows remain in the output
 
@@ -11,6 +10,8 @@ FUNCTION_NAME() OVER(...)
 Two main clauses Inside OVER function:
 - `ORDER BY` orders the rows related to the current row
 - `PARTITION BY` splits the table into partitions based on a column's unique values 
+
+lets **Looking through the window** :grin:	
 
 ### Sections
 1. Framing
