@@ -12,12 +12,12 @@ Two main clauses Inside OVER function:
 
 lets **Looking through the window** :grin:	
 
-## :heavy_check_mark: Sections
+### :heavy_check_mark: Sections
 - [Framing](#Framing)
 - [Fetching](#Fetching)
 - [Ranking](#Ranking)
 - [Paging](#Paging)
 - [Grouping](#Grouping)
 ---
-### Framing
+## Framing
 
