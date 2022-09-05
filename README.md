@@ -37,7 +37,7 @@ By default, a frame - starts at the beginning of a table or partition
 			              - ends at the current row
 
 **MAX without a frame:**
-`MAX(Medals) OVER (ORDER BY Year ASC) AS Max_Medals`
+`SUM(Medals) OVER (ORDER BY Year ASC) AS Max_Medals`
 
 | Year | Medals | Max_Medals |
 |------|--------|------------|
