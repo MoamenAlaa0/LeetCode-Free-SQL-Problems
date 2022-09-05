@@ -22,7 +22,6 @@ lets **Looking through the window** :grin:
 ---
 
 ## Framing
-Two main functions:
 - `ROWS BETWEEN`
 - `RANGE BETWEEN`
 
@@ -92,7 +91,6 @@ RANGE BETWEEN [START] AND [FINISH]
 
 ---
 ### Fetching
-Four main functions:
 - Relative
   - `LAG(column, n)` returns column's value at the row n rows before the current row
   - `LEAD(column, n)` returns column's value at the row n rows after the current row
@@ -118,7 +116,7 @@ ORDER BY Year ASC
 | 1912 | Stockholm | Athens 	| London    |
 
 :memo: **Note:**  
-We used `RANGE BETWEEN` because we said that in the Window functions defintion, we Perform some operations that related to the current row, and we need the last value, that far away from the current row so we used: `RANGE BETWEEN` ... clause extends the window to the end of the table or partition.
+We used `RANGE BETWEEN` because we said that in the Window functions defintion, we Perform some operations that related to the current row, and we need the last value, that far away from the current row so we used: `RANGE BETWEEN` ... to extends the window to the end of the table or partition.
 
 ---
 
