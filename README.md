@@ -25,20 +25,7 @@ lets **Looking through the window** :grin:
 - `ROWS BETWEEN`
 - `RANGE BETWEEN`
 
-### 1. ROWS BETWEEN
-```
-ROWS BETWEEN [START] AND [FINISH]
-```
-```
-  - n PRECEDING: n rows before the current row
-  - CURRENT ROW: the current row
-  - n FOLLOWING: n rows a
-  
-  - UNBOUNDED PRECEDING: the beginning of a table or partition
-  - UNBOUNDED FOLLOWING: the end of a table or partition
-```
-By default, a frame - starts at the beginning of a table or partition 
-			              - ends at the current row
+By default, a frame - starts at the beginning of a table or partition - ends at the current row
 
 **MAX without a frame:**
 `SUM(Medals) OVER (ORDER BY Year ASC) AS Max_Medals`
@@ -51,7 +38,19 @@ By default, a frame - starts at the beginning of a table or partition
 | 2008 | 43     | 66	       |
 | 2012 | 47     | 66 	       |
 
-**MAX with a frame:**
+### 1. ROWS BETWEEN
+```
+ROWS BETWEEN [START] AND [FINISH]
+```
+```
+  - n PRECEDING: n rows before the current row
+  - CURRENT ROW: the current row
+  - n FOLLOWING: n rows a
+  
+  - UNBOUNDED PRECEDING: the beginning of a table or partition
+  - UNBOUNDED FOLLOWING: the end of a table or partition
+```
+**MAX with a ROWS frame:**
 ```sql MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS Max_Medals_Last```
 
 | Year | Medals |Max_Medals_Last |
