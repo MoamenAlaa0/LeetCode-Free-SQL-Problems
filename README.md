@@ -18,4 +18,6 @@ lets **Looking through the window** :grin:
 3. Ranking
 4. Paging
 5. Grouping
+---
+## Framing
 
