@@ -155,6 +155,7 @@ We used `RANGE BETWEEN` because we said that in the Window functions defintion, 
 - `ROLLUP(column_1, column_2, ..)` hierarchical, de-aggregating from the leftmost provided column to the right-most
 - `CUBE(column_1, column_2, ..)` a non-hierarchical ROLLUP, It generates all possible group-level aggregations
 
+![ROLLUP](http://url/to/img.png)
 
 
 
