@@ -12,7 +12,7 @@ Two main clauses Inside OVER function:
 
 lets **Looking through the window** :grin:	
 
-### Sections
+### :heavy_check_mark: Sections
 1. Framing
 2. Fetching
 3. Ranking
