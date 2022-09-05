@@ -34,7 +34,7 @@ ROWS BETWEEN [START] AND [FINISH]
 By default, a frame - starts at the beginning of a table or partition 
 			              - ends at the current row
 
-[1] **MAX without a frame:**
+**MAX without a frame:**
 `MAX(Medals) OVER (ORDER BY Year ASC) AS Max_Medals`
 
 | Year | Medals | Max_Medals |
@@ -45,7 +45,7 @@ By default, a frame - starts at the beginning of a table or partition
 | 2008 | 43     | 66	       |
 | 2012 | 47     | 66 	       |
 
-[1] **MAX with a frame:**
+**MAX with a frame:**
 `MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS Max_Medals_Last`
 
 | Year | Medals |Max_Medals_Last |
