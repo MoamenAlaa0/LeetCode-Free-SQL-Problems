@@ -21,7 +21,7 @@ lets **Looking through the window** :grin:
 ---
 
 ## Framing
-Framing have main two function `ROWS BETWEEN` and `RANGE BETWEEN`
+Framing have two main function `ROWS BETWEEN` and `RANGE BETWEEN`
 
 ### 1. ROWS BETWEEN
 ```
