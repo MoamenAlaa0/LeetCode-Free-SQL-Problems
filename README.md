@@ -21,6 +21,7 @@ lets **Looking through the window** :grin:
 ---
 
 ## Framing
+### 1. ROWS BETWEEN
 ```
 ROWS BETWEEN [START] AND [FINISH]
   - n PRECEDING: n rows before the current row
@@ -54,6 +55,27 @@ By default, a frame - starts at the beginning of a table or partition
 | 2004 | 47     | 66 		   |
 | 2008 | 43     | 47		   |
 | 2012 | 47     | 47 		   |
+
+### 1. RANGE BETWEEN
+RANGE treats duplicates in OVER's ORDER BY subclause as a single entity
+```
+RANGE BETWEEN [START] AND [FINISH]
+```
+| Year | Medals | Rows_RT | Range_RT |
+|------|--------|---------|----------|
+| 1992 | 10     | 10      | 10       |
+| 1996 | 50     | 60      | 110      |
+| 2000 | 50     | 110     | 110      |
+| 2004 | 60     | 170     | 230      |
+| 2008 | 60     | 230     | 230      |
+| 2012 | 70     | 300     | 300      |
+
+
+
+
+
+
+
 
 
 
