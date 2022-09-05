@@ -11,8 +11,8 @@ Two main clauses Inside OVER function:
 - `ORDER BY` orders the rows related to the current row
 - `PARTITION BY` splits the table into partitions based on a column's unique values 
 
-lets **Looking through the window** :grin:	
 
+lets **Looking through the window** :grin:	
 ### Sections
 1. Framing
 2. Fetching
