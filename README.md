@@ -21,7 +21,9 @@ lets **Looking through the window** :grin:
 ---
 
 ## Framing
-Framing have two main function `ROWS BETWEEN` and `RANGE BETWEEN`
+Two main functions:
+- `ROWS BETWEEN`
+- `RANGE BETWEEN`
 
 ### 1. ROWS BETWEEN
 ```
@@ -88,7 +90,14 @@ RANGE BETWEEN [START] AND [FINISH]
 **ROWS BETWEEN is almost always used over RANGE BETWEEN**  
 
 ---
-
+### Fetching
+Four main functions:
+- Relative
+  - `LAG(column, n)` returns column's value at the row n rows before the current row
+  - `LEAD(column, n)` returns column's value at the row n rows after the current row
+- Absolute
+  - `FIRST_VALUE(column)` returns the first value in the table or partition
+  - `LAST_VALUE(column)` returns the last value in the table or partition
 
 
 
