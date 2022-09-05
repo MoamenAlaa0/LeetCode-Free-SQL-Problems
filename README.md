@@ -63,6 +63,17 @@ RANGE treats duplicates in OVER's ORDER BY subclause as a single entity
 ```
 RANGE BETWEEN [START] AND [FINISH]
 ```
+```
+  - n PRECEDING: n rows before the current row
+  - CURRENT ROW: the current row
+  - n FOLLOWING: n rows a
+  
+  - UNBOUNDED PRECEDING: the beginning of a table or partition
+  - UNBOUNDED FOLLOWING: the end of a table or partition
+```
+**SUM with a RANGE frame:** 
+`MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS Range_RT`
+
 | Year | Medals | Rows_RT | Range_RT |
 |------|--------|---------|----------|
 | 1992 | 10     | 10      | 10       |
