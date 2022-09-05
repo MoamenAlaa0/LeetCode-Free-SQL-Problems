@@ -21,7 +21,7 @@ lets **Looking through the window** :grin:
 
 ---
 
-## Framing :wrench:
+## Framing
 - `ROWS BETWEEN`
 - `RANGE BETWEEN`
 
