@@ -21,7 +21,9 @@ lets **Looking through the window** :grin:
 ---
 
 ## Framing
-#### 1. ROWS BETWEEN
+Framing have main two function `ROWS BETWEEN` and `RANGE BETWEEN`
+
+### 1. ROWS BETWEEN
 ```
 ROWS BETWEEN [START] AND [FINISH]
 ```
@@ -58,7 +60,7 @@ By default, a frame - starts at the beginning of a table or partition
 | 2008 | 43     | 47		   |
 | 2012 | 47     | 47 		   |
 
-#### 1. RANGE BETWEEN
+### 1. RANGE BETWEEN
 RANGE treats duplicates in OVER's ORDER BY subclause as a single entity
 ```
 RANGE BETWEEN [START] AND [FINISH]
@@ -72,7 +74,7 @@ RANGE BETWEEN [START] AND [FINISH]
   - UNBOUNDED FOLLOWING: the end of a table or partition
 ```
 **SUM with a RANGE frame:** 
-`MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS Range_RT`
+`SUM(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS Range_RT`
 
 | Year | Medals | Rows_RT | Range_RT |
 |------|--------|---------|----------|
