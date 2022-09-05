@@ -43,3 +43,22 @@ By default, a frame - starts at the beginning of a table or partition
 | 2004 | 47     | 66 	       |
 | 2008 | 43     | 66	       |
 | 2012 | 47     | 66 	       |
+
+[1] **MAX with a frame:**
+`MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS Max_Medals_Last`
+
+| Year | Medals |Max_Medals_Last |
+|------|--------|----------------|
+| 1996 | 36     | 36 		   |
+| 2000 | 66     | 66		   |
+| 2004 | 47     | 66 		   |
+| 2008 | 43     | 47		   |
+| 2012 | 47     | 47 		   |
+
+
+
+
+
+
+
+
