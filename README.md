@@ -83,7 +83,8 @@ RANGE BETWEEN [START] AND [FINISH]
 | 2008 | 60     | 230     | 230      |
 | 2012 | 70     | 300     | 300      |
 
-**ROWS BETWEEN is almost always used over RANGE BETWEEN**
+**ROWS BETWEEN is almost always used over RANGE BETWEEN**  
+
 ---
 
 
