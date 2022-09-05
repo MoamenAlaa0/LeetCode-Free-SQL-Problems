@@ -52,7 +52,7 @@ By default, a frame - starts at the beginning of a table or partition
 | 2012 | 47     | 66 	       |
 
 **MAX with a frame:**
-`MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS Max_Medals_Last`
+```sql MAX(Medals) OVER (ORDER BY Year ASC ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) AS Max_Medals_Last```
 
 | Year | Medals |Max_Medals_Last |
 |------|--------|----------------|
@@ -116,7 +116,7 @@ ORDER BY Year ASC
 | 1912 | Stockholm | Athens 	| London    |
 
 :memo: **Note:**  
-We used `RANGE BETWEEN` because we said that in the Window functions defintion, we Perform some operations that related to the current row, and we need the last value, that far away from the current row so we used: `RANGE BETWEEN` ... to extends the window to the end of the table or partition.
+We used `RANGE BETWEEN` because we said that in the Window functions defintion, we Perform some operations that related to the current row, and we need the last value, that far away from the current row so we used: `RANGE BETWEEN` ... to extend the window to the end of the table or partition.
 
 ---
 
