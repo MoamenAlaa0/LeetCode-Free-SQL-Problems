@@ -19,5 +19,5 @@ lets **Looking through the window** :grin:
 4. Paging
 5. Grouping
 ---
-## Framing
+### Framing
 
