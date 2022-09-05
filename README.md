@@ -8,5 +8,5 @@ FUNCTION_NAME() OVER(...)
 ```
 
 Two main clauses Inside OVER function:
-- `ORDER BY` --> orders the rows related to the current row
-- `PARTITION BY` --> splits the table into partitions based on a column's unique values 
+- `ORDER BY` orders the rows related to the current row
+- `PARTITION BY` splits the table into partitions based on a column's unique values 
