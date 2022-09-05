@@ -1,6 +1,5 @@
 # :window: Window Functions
-Perform an operation across a set of rows that are somehow related to the current row  
-Similar to `GROUP BY` aggregate functions, but all rows remain in the output
+Perform an operation across a set of rows that are somehow related to the current row. similar to `GROUP BY` aggregate functions, but all rows remain in the output
 
 To tell SQL engine there is a Window function.. using `OVER()` (The Main function)
 ```sql 
