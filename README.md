@@ -146,7 +146,6 @@ We used `RANGE BETWEEN` because we said that in the Window functions defintion, 
 - `NTILE(n)` splits the data into n approximately equal pages.  
 
 [Paging](https://docs.microsoft.com/en-us/sql/t-sql/functions/ntile-transact-sql?view=sql-server-ver16): Splitting data into (approximately) equal chunks 
-
 Uses:
   - Many APIs return data in "pages" to reduce data being sent
   - Separating data into quartiles or thirds (top middle 33%, and bottom thirds) to judge performance
