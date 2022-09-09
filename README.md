@@ -3,7 +3,7 @@ Solutions for all free SQL problems on LeetCode using MySQL and SQL-Server. And 
 
 |    | Title                                                      | Difficulty | Solution |
 |----|------------------------------------------------------------|------------|----------|
-| 1  | Combine Two Tables                                         | Easy       |          |
+| 1  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)| Easy       |          |
 | 2  | Employees Earning More Than Their Managers                 | Easy       |          |
 | 3  | Duplicate Emails                                           | Easy       |          |
 | 4  | Customers Who Never Order                                  | Easy       |          |
