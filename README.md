@@ -1,5 +1,5 @@
 # LeetCode Free SQL Problems and Solutions
-
+![](https://komarev.com/ghpvc/?username=MoamenAlaa0&color=green)
 Solutions for all free SQL problems on LeetCode using MySQL and SQL-Server. And I've summed up the basics of [Window Functions](Window_Functions_Summary/README.md) for helping solve the problems.
 
 |    | Title                                                      | Difficulty | Solution |
