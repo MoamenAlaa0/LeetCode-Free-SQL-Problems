@@ -1,6 +1,6 @@
 # LeetCode Free SQL Problems and Solutions
 
-Solutions for all free SQL problems on LeetCode using MySQL and SQL-Server. And I've summed up the basics of [Window Functions](Window Functions Summary)
+Solutions for all free SQL problems on LeetCode using MySQL and SQL-Server. And I've summed up the basics of [Window Functions](/Window Functions Summary)
 
 |    | Title                                                      | Difficulty | Solution |
 |----|------------------------------------------------------------|------------|----------|
