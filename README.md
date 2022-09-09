@@ -1,5 +1,7 @@
 # LeetCode Free SQL Problems and Solutions
 
+Solutions for all free SQL problems on LeetCode using MySQL and SQL-Server
+
 |    | Title                                                      | Difficulty | Solution |
 |----|------------------------------------------------------------|------------|----------|
 | 1  | Combine Two Tables                                         | Easy       |          |
