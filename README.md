@@ -1,4 +1,4 @@
-# LeetCode SQL FREE Problems Solution
+# LeetCode Free SQL Problems Solution
 
 |    | Title                                                      | Difficulty | Solution |
 |----|------------------------------------------------------------|------------|----------|
