@@ -46,7 +46,7 @@ For opening the problems/solutions in new tab :sweat_smile:: `CTRL + click` (on 
 | 39 | [Tree Node](https://leetcode.com/problems/tree-node/) | Medium |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Tree%20Node.sql)
 | 40 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | Medium |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Exchange%20Seats.sql)
 | 41 | [Market Analysis I](https://leetcode.com/problems/market-analysis-i/) | Medium |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Market%20Analysis%20I.sql)
-| 42 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | Medium |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Capital%20Gain/Loss.sql)
+| 42 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | Medium |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Capital%20GainLoss.sql)
 | 43 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Hard |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Department%20Top%20Three%20Salaries.sql)
 | 44 | [Trips and Users](https://leetcode.com/problems/trips-and-users/) | Hard |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Trips%20and%20Users.sql)
 | 45 | [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) | Hard |[SQL](https://github.com/MoamenAlaa0/SQL_learning/blob/main/Solutions/Human%20Traffic%20of%20Stadium.sql)
