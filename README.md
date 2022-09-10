@@ -1,5 +1,5 @@
 # LeetCode Free SQL Problems and Solutions ![](https://komarev.com/ghpvc/?username=MoamenAlaa0&color=green)
-Solutions for all free SQL problems on LeetCode using **MySQL** and **SQL-Server**. And I've summed up the basics of [Window Functions](https://github.com/MoamenAlaa0/SQL_learning/tree/main/Window%20Functions%20Summary) for helping solve the problems.
+My solutions for all free SQL problems on LeetCode using **MySQL** and **SQL-Server**. And I've summed up the basics of [Window Functions](https://github.com/MoamenAlaa0/SQL_learning/tree/main/Window%20Functions%20Summary) for helping solve the problems.
 
 For opening the problems/solutions in new tab :sweat_smile:: `CTRL + click` (on Windows and Linux) or `CMD + click` (on MacOS) 
 
