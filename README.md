@@ -1,4 +1,4 @@
-# LeetCode Free SQL Problems and Solutions [![HitCount](http://hits.dwyl.com/MoamenAlaa0/LeetCode-Free-SQL-Problems.svg)](http://hits.dwyl.com/MoamenAlaa0/LeetCode-Free-SQL-Problems)
+# LeetCode Free SQL Problems and Solutions
 My solutions for all free SQL problems on LeetCode using **MySQL** and **SQL-Server**. I've summed up the basics of [Window Functions](https://github.com/MoamenAlaa0/SQL_learning/tree/main/Window%20Functions%20Summary) for helping solve the problems.
 
 For opening the problems/solutions in new tab: `CTRL + click` (on Windows and Linux) or `CMD + click` (on MacOS) 
